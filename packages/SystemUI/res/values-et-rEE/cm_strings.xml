@@ -72,6 +72,7 @@
   <!-- QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_battery_saving_label">Akut säästev</string>
   <!-- QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_location_gps_only_label">Ainult seade</string>
   <!-- QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_high_accuracy_label">Kõrge täpsusega</string>
   <!-- QuickSettings: Location detail panel title [CHAR LIMIT=NONE] -->
@@ -112,4 +113,6 @@
   <!-- Volume panel QS tile -->
   <string name="quick_settings_sync_label">Sünk</string>
   <string name="quick_settings_volume_panel_label">Helipaneel</string>
+  <!-- Content description for Accessibility on unlocked tasks in recents -->
+  <!-- Content description for Accessibility on locked tasks in recents -->
 </resources>

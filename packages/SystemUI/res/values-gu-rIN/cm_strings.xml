@@ -71,6 +71,7 @@
   <!-- QuickSettings: Location (On, low-power) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_battery_saving_label">બૅટરી બચત</string>
   <!-- QuickSettings: Location (On, gps-only) [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_location_gps_only_label">ફક્ત ઉપકરણ</string>
   <!-- QuickSettings: Location (On, high-accuracy) [CHAR LIMIT=NONE] -->
   <string name="quick_settings_location_high_accuracy_label">ઉચ્ચ સચોટતા</string>
   <!-- QuickSettings: Location detail panel title [CHAR LIMIT=NONE] -->
@@ -111,4 +112,6 @@
   <!-- Volume panel QS tile -->
   <string name="quick_settings_sync_label">સમન્વયન</string>
   <string name="quick_settings_volume_panel_label">વૉલ્યુમ પૅનલ.</string>
+  <!-- Content description for Accessibility on unlocked tasks in recents -->
+  <!-- Content description for Accessibility on locked tasks in recents -->
 </resources>
