@@ -325,7 +325,7 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
     private static final String LOCKSCREEN_MEDIA_METADATA =
             "cmsecure:" + CMSettings.Secure.LOCKSCREEN_MEDIA_METADATA;
     private static final String SYSTEMUI_BURNIN_PROTECTION =
-            "cmsecure:" + CMSettings.System.SYSTEMUI_BURNIN_PROTECTION;
+            "cmsecure:" + "systemui_burnin_protection";
 
     static {
         boolean onlyCoreApps;
@@ -929,8 +929,7 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
             mNotificationPanelDebugText.setVisibility(View.VISIBLE);
         }
 
-        if (mContext.getResources().getBoolean(
-                org.cyanogenmod.platform.internal.R.bool.config_enableBurnInProtection)) {
+        if (true) {
             mBurnInProtectionController = new BurnInProtectionController(mContext, mStatusBarView);
         }
 
