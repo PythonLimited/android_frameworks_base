@@ -1069,6 +1069,8 @@ public interface WindowManager extends ViewManager {
          */
         public static final int PRIVATE_FLAG_FORCE_HARDWARE_ACCELERATED = 0x00000002;
 
+	public static final int PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS = 0x00080000;
+
         /**
          * By default, wallpapers are sent new offsets when the wallpaper is scrolled. Wallpapers
          * may elect to skip these notifications if they are not doing anything productive with
